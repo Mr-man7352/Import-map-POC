@@ -1,4 +1,4 @@
-export default function ManAlert() {
-  console.log("This is a function");
-  alert("Hi from function");
+export default function manMsg() {
+  document.getElementById("msg").innerHTML =
+    "Demonstrating the use of ES6 Modules. (Import Maps)";
 }
